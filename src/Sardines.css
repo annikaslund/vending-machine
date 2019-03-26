@@ -1,0 +1,10 @@
+.Sardines {
+    background-color: white;
+    float: right;
+    margin: 30px;
+    width: 100px;
+}
+
+body {
+    background-image: url("https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/sn-sardinesHrev.jpg?itok=xyPj84mQ");
+}

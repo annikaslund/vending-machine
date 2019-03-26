@@ -31,3 +31,9 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url("https://vignette.wikia.nocookie.net/to-aru-majutsu-no-index/images/2/26/Jihanki.png/revision/latest?cb=20120504161315");
+  background-repeat: no-repeat;
+  background-position: top;
+}

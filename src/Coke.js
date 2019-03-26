@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-
+import "./Coke.css"
 
 class Coke extends Component {
   render() {
