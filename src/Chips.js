@@ -6,7 +6,7 @@ class Chips extends Component {
     return (
       <div className="Chips">
             <p>Chips!</p>
-            <Link to="/">Home</Link>
+            <Link to="/">Go Back</Link>
       </div>
     );
   }

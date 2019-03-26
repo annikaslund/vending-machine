@@ -1,13 +1,19 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import './NavBar.css';
 
 class NavBar extends Component {
     render(){
+        const activeStyle = {
+            fontWeight: "bold",
+            color: "tomato"
+        }
         return(
             <nav>
-                <p><NavLink to="/Coke">Coke</NavLink></p>
-                <p><NavLink to="/Chips">Chips</NavLink></p>
-                <p><NavLink to="/Sardines">Sardines</NavLink></p>
+                <p><NavLink exact to="/" activeStyle={activeStyle}>Home</NavLink></p>
+                <p><NavLink exact to="/coke" activeStyle={activeStyle}>Coke</NavLink></p>
+                <p><NavLink exact to="/chips" activeStyle={activeStyle}>Chips</NavLink></p>
+                <p><NavLink exact to="/sardines" activeStyle={activeStyle}>Sardines</NavLink></p>
             </nav>
         );
     }
